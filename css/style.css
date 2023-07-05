@@ -1,0 +1,147 @@
+#title{
+    background-color: #FF4C68;
+    color: white;
+    
+}
+h1{
+    font-family:"Montserrat","sans-serif";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.container-fluid{
+    padding:3% 15%;
+}
+body{
+    font-family: "montserrat";
+}
+
+/*navigation bar*/
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "montserrat";
+    font-weight: lighter;
+}
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+}
+.font-icon{
+    margin-bottom: 1rem;
+    color:#ef8172;
+}
+
+#features{
+    padding: 7% 15%;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: "montserrat";
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+p{
+    color:#8f8f8f;
+}
+.font-icon:hover{
+    color:#FF4C68;
+}
+
+/*testimonial section*/
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+h2{
+    font-family: "montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press section */ 
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+/* pricing section*/
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2% ;
+}
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        transform: rotate(0deg);
+    }
+}
+
+/* cta section*/
+
+#cta{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 7% 15%;
+    color: #fff;
+}
+h3{
+    font-family: "montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* footer section */
+
+#footer{
+    text-align: center;
+    font-size: small;
+    padding: 5%;
+}
+.footer-icon{
+    padding: 1%;
+}
+h4{
+    font-size: small;
+}
